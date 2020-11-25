@@ -1,18 +1,25 @@
-import React, { Fragment } from 'react';
-import classes from "./UserInfo.css";
+import React from 'react';
+import "./UserInfo.css";
 import UserAvatar from "../UserAvatar/UserAvatar";
+import envelope from "../../assets/icons8-envelope-20.png";
 
 const userInfo = (props) => {
     return (
-        <Fragment>
-           <UserAvatar />
-            <h2>{props.name}</h2>
-            <p>{props.email}</p>
-            <div>
-                
-                <p>{props.contact}</p>
-            </div>
-        </Fragment>
+        <div className="userInfoContainer">
+             <UserAvatar />
+           <div className="information">
+               <div>
+                  <h2>{props.name}</h2>
+                  <p>{props.email}</p>
+               </div>
+              
+               <div className="contact">
+                  ✉ {"  "}{props.contact}
+               </div>
+
+           </div>
+           
+        </div>
     );
 }
 

@@ -1,10 +1,13 @@
-import React, { Fragment } from 'react';
-import classes from "./UserInfo.css";
-import avatar from '../../assets/undraw_female_avatar_w3jk (1).png';
+import React from 'react';
+import  "./UserAvatar.css";
+import avatar from "../../assets/icons8-user-60 (1).png";
 
 const userAvatar = () => {
     return (
-        <img src={avatar} alt ="User-avatar"/>
+        <div>
+            <img className = "Avatar" src={avatar} alt ="User-avatar"/>
+        </div>
+        
     );
 }
 

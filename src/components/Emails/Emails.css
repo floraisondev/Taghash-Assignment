@@ -1,0 +1,21 @@
+.EmailsContainer{
+width: 100%;
+
+}
+
+.Add{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .Add:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+
+  .addBtn{
+      padding-bottom: 5%;
+  }
+
+ 

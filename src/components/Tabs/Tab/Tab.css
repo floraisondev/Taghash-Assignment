@@ -1,0 +1,42 @@
+.Tab{
+    margin: 0 10px;
+    display: inline-block; 
+}
+
+.Tab a{
+    text-decoration: none;
+    width: 80%;
+    color: gray;
+    padding: 10px;
+    font-size: 20px;
+    }
+
+.Underline::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin-top: 3px;
+}
+
+.Underline:hover::after
+{
+    width: 100%;
+    transition: width .3s;
+    
+}
+
+.Tab a:hover{
+    color: black;
+}
+
+.Tab a:active,
+.Tab a.active {
+    color: black;
+    font-weight: bolder;
+    
+    
+
+}

@@ -1,0 +1,47 @@
+
+.userInfoContainer {
+    margin-top: 10px;
+    max-width: 80%;
+    display: flex;
+    justify-content: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.information h2, p {
+    margin: 0;
+}
+
+.contact {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+    margin-top: 7px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: 4px solid pink;
+}
+
+.contact:hover{
+    
+    cursor: pointer;
+    border-color: rgb(247, 172, 185);
+}
+
+
+@media(min-width:500px){
+    .information{
+        display: flex;
+        
+        padding: 6px;
+    }
+    .contact{
+        width: 200px;
+        margin-left: 30px;
+    }
+    .userInfoContainer{
+        justify-content: center;
+    }
+}

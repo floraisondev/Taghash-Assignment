@@ -1,0 +1,19 @@
+.tabsContainer {
+    padding: 20px;
+}
+
+
+.Tabs{
+    max-width: 80%;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content:center;
+    margin-left: 10px;
+}
+
+@media (min-width:500px){
+
+    .Tabs{
+    margin: 0 auto;}
+}
