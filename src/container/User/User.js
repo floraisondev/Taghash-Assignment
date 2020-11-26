@@ -3,6 +3,7 @@ import "./User.css";
 import UserInfo from '../../components/UserInfo/UserInfo';
 import Navigation from "../../components/Navigation/Navigation";
 import Tabs from "../../components/Tabs/Tabs";
+
 class User extends Component {
     state = {
         name: "Paul Johnson",
@@ -10,15 +11,14 @@ class User extends Component {
         contactNumber:"YCombinator"
     }
     render() {
-   return(
+     return(
        <Fragment>
            <div className="Header">
-           <Navigation />
-           <UserInfo name={this.state.name} email ={this.state.email} contact ={this.state.contactNumber}>
-              </UserInfo>
-            </div>
+            <Navigation />
+           <UserInfo name={this.state.name} email ={this.state.email} contact ={this.state.contactNumber} />
+           </div>
             <Tabs />
-        </Fragment>
+         </Fragment>
          );
     }
 }

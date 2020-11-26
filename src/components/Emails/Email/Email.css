@@ -1,6 +1,5 @@
 .emailContainer {
     max-width: 80%;
-    border: 1px solid black;
     margin: 40px auto;
     border-radius: 5px;
     padding: 0 20px;
@@ -10,11 +9,8 @@
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-
-    
+    background: linear-gradient(90deg, #f5f7ea 0%, #ffffff 100%);
 }
-
-
 
 .emailTag {
     display: inline-block;
@@ -25,7 +21,6 @@
     top:-13px;
     background: white;
     font-weight: bold;
-    border: 1px solid black;
     border-radius: 5px;
     padding: 4px;
 }
@@ -35,4 +30,10 @@
     box-shadow: 5px 5px 18px #d3cde4;
     transform: scale(1.001);
     transition: all 0.5s;
+}
+
+@media(min-width:500px){
+    .emailContainer{
+        max-width: 60vw;
+    }
 }

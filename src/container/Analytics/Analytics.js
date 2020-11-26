@@ -1,6 +1,7 @@
-import React, {Component, component} from 'react';
+import React, {Component, Fragment} from 'react';
 import {Bar, Line, Pie} from 'react-chartjs-2';
 import "./Analytics.css";
+
 class Analytics extends Component{
     
     constructor(props){
@@ -31,6 +32,8 @@ class Analytics extends Component{
     }
     render(){
       return(
+
+        <Fragment>
          <div className="Analytics">
                  <div className="chart">
                  <Bar 
@@ -45,7 +48,7 @@ class Analytics extends Component{
                         },
                         legend:{
                             display:true,
-                            position:'right'
+                            position:'bottom'
                         }
                     }} 
                     />
@@ -67,17 +70,13 @@ class Analytics extends Component{
                             },
                             legend:{
                                 display:true,
-                                position:'right'
+                                position:'bottom'
                             }
                         }} />
-
-            
-                    </div>
+                     </div>
 
                     <div className="chart">
-            
-              
-                        <Pie data={this.state.chartData}
+                     <Pie data={this.state.chartData}
                     options ={{
                         responsive:true,
                         maintainAspectRatio:false,
@@ -93,11 +92,8 @@ class Analytics extends Component{
                     }}  />
 
                     </div>
-
-            
-          
-         </div> 
-
+               </div> 
+        </Fragment>
        
       )  
     }

@@ -4,8 +4,8 @@
     max-width: 80%;
     display: flex;
     justify-content: left;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:13px;
 }
 
 
@@ -19,29 +19,29 @@
     height: 25px;
     text-align: center;
     margin-top: 7px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    border: 4px solid pink;
+    color: black;
+    border: 1px solid black;
+    background-color:rgba(0,0,0,0.2);
 }
 
 .contact:hover{
-    
     cursor: pointer;
-    border-color: rgb(247, 172, 185);
+    
 }
 
 
 @media(min-width:500px){
     .information{
         display: flex;
-        
         padding: 6px;
     }
     .contact{
         width: 200px;
         margin-left: 30px;
+        border: 2px solid black;
     }
     .userInfoContainer{
         justify-content: center;
+        font-size: 18px;
     }
 }

@@ -16,10 +16,8 @@ const userInfo = (props) => {
                <div className="contact">
                   ✉ {"  "}{props.contact}
                </div>
-
+             </div>
            </div>
-           
-        </div>
     );
 }
 
