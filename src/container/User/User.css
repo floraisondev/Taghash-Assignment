@@ -1,7 +1,8 @@
 .Header{
 	    height: 250px;
 		background: rgb(240,171,139);
-		background: linear-gradient(174deg, rgba(240,171,139,1) 16%, rgba(223,198,99,1) 38%, rgba(245,116,140,1) 68%, rgba(255,255,255,1) 69%);
+		background: linear-gradient(174deg, rgba(240,171,139,1) 16%, 
+		rgba(223,198,99,1) 38%, rgba(245,116,140,1) 68%, rgba(255,255,255,1) 69%);
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 
@@ -10,5 +11,5 @@
 	.Header{
 		height: 45vh;
 	  }
-}
+	}
 	

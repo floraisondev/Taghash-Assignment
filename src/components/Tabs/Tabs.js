@@ -4,15 +4,14 @@ import Tab from "./Tab/Tab";
 const tabs = () => {
     return (
         <div className="tabsContainer"> 
-             <ul className="Tabs">
-            <Tab link ="/" exact>
+            <ul className="Tabs">
+              <Tab link ="/" exact>
                 Interaction
-            </Tab>
-            <Tab link="/analytics">
-              Analytics
-            </Tab>
-        </ul>
-
+              </Tab>
+              <Tab link="/analytics">
+                Analytics
+              </Tab>
+            </ul>
         </div>
        
     );

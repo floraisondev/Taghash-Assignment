@@ -7,7 +7,6 @@ const email = (props) => {
                 <span className="emailTag">Emails</span>
                 <p>{props.children}</p>
             </div>
-            
         </Fragment>
     );
 }

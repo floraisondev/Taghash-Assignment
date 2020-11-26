@@ -1,24 +1,32 @@
 .EmailsContainer{
 width: 100%;
-
 }
 
 .Add{
- display: block;
+  display: block;
   margin-left: auto;
-  margin-right: auto;
-  }
+  margin-right: 5%;
+}
 
-  .Add:hover,
-  .Add:focus{
+.EmailsContainer span{
+  font-size:16px;
+}
+
+.Add:hover,
+.Add:focus{
     transform: scale(1.1);
     transition: all 0.5s;
   }
 
   .addBtn{
-      padding-bottom: 5%;
+    padding-bottom: 5%;
   }
-
+  
+  @media(min-width:500px){
+    .Add{
+      margin-right: 18%;
+    }
+  }
   
 
  

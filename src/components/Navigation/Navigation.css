@@ -1,4 +1,4 @@
-.Wrapper {
+.navWrapper {
     display: flex;
     width: 100%;
     position: relative;
@@ -32,4 +32,5 @@
         right:10px;
         margin: 20px;
     }
+
 }

@@ -8,32 +8,33 @@ const emails = () => {
         <Fragment>
             <div className = "EmailsContainer">
             <Email>
-            fwd: zolo
+            <span><b>Fwd:</b> Zolo</span>
             <br></br>
             Wanted to run a few things by you for posting better.
             If you're asking for help, please use the #Help channel. #General is more around general discussions versus debugging. I have to move your posts when you don't.
             If you're asking for random strangers on the internet to help fix your code, please provide the code. We can't help you otherwise. This can be done in the form of a CodePen or even Github Gist. You can also paste a snippet or two into Spectrum. Anything is better than nothing.
-        </Email>
+            </Email>
  
-        <Email>
-            fwd: Giva associations
+            <Email>
+            <span><b>Fwd:</b> Giva Associations</span>
             <br></br>
             Another thing to note. If you post something obscure and you do not clarify yourself after given time, your post will be removed. When I mean "obscure" I'm talking about odd posts I see saying stuff like "how to potato in app".
             Please use codeblocks and please format your code blocks. If can do so here: https://prettier.io/playground/ (I've been formatting everyone's code to clean it up)
-        </Email>
+            </Email>
 
-        <Email>
-            fwd: foreword media
+            <Email>
+            <span><b>Fwd:</b> Foreword Media</span>
             <br></br>
             Another thing to note. If you post something obscure and you do not clarify yourself after given time, your post will be removed. When I mean "obscure" I'm talking about odd posts I see saying stuff like "how to potato in app".
             Please use codeblocks and please format your code blocks. If can do so here: https://prettier.io/playground/ (I've been formatting everyone's code to clean it up)
-        </Email>
+            </Email>
 
-        <div className="addBtn">
-       <img className="Add" src={addButton} alt="add-button"></img>
-       </div>
-   </div>
-</Fragment>
-);}
+            <div className="addBtn">
+            <img className="Add" src={addButton} alt="add-button" />
+            </div>
+            </div>
+        </Fragment>
+    );
+}
 
 export default emails;

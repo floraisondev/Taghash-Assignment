@@ -7,18 +7,18 @@ const userInfo = (props) => {
     return (
         <div className="userInfoContainer">
              <UserAvatar />
-           <div className="information">
+             <div className="information">
                <div>
                   <h2>{props.name}</h2>
                   <p>{props.email}</p>
                </div>
               
-               <div className="contact">
+                <div className="contact">
                  <img src={envelope} alt="envelope" />
                  {props.contact}
-               </div>
+                </div>
              </div>
-           </div>
+          </div>
     );
 }
 

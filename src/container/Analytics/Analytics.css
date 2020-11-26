@@ -5,11 +5,12 @@
 
 .chart{
     position: relative;
-     margin: 15px auto;
+    margin: 15px auto;
     border: 1px solid #000000;
     border-radius: 5px;
     padding: 5px;
-    height:40vh; width:80vw;
+    height:40vh; 
+    width:80vw;
 }
 
 

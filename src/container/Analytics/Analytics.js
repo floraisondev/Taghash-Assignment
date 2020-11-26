@@ -26,17 +26,17 @@ class Analytics extends Component{
                         'rgba(255, 99, 132, 0.6)',
                     ]
                 }
-            ]
+              ]
             }
         }
     }
     render(){
-      return(
 
-        <Fragment>
-         <div className="Analytics">
-                 <div className="chart">
-                 <Bar 
+      return(
+       <Fragment>
+          <div className="Analytics">
+             <div className="chart">
+                  <Bar 
                     data = {this.state.chartData} 
                     options ={{
                         responsive:true,
@@ -50,15 +50,13 @@ class Analytics extends Component{
                             display:true,
                             position:'bottom'
                         }
-                    }} 
+                      }} 
                     />
-             
-                 </div>
+              </div>
                    
             
-                <div className="chart">
-
-                        <Line
+              <div className="chart">
+                      <Line
                         data ={this.state.chartData}
                         options ={{
                             responsive:true,
@@ -73,11 +71,11 @@ class Analytics extends Component{
                                 position:'bottom'
                             }
                         }} />
-                     </div>
+                </div>
 
-                    <div className="chart">
+                <div className="chart">
                      <Pie data={this.state.chartData}
-                    options ={{
+                       options ={{
                         responsive:true,
                         maintainAspectRatio:false,
                         title:{
@@ -89,13 +87,12 @@ class Analytics extends Component{
                             display:true,
                             position:'right'
                         }
-                    }}  />
+                      }}  />
 
-                    </div>
-               </div> 
+                 </div>
+            </div> 
         </Fragment>
-       
-      )  
+       )  
     }
 }
 

@@ -18,7 +18,7 @@ class User extends Component {
            <UserInfo name={this.state.name} email ={this.state.email} contact ={this.state.contactNumber} />
            </div>
             <Tabs />
-         </Fragment>
+        </Fragment>
          );
     }
 }
