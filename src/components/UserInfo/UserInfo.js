@@ -1,7 +1,7 @@
 import React from 'react';
 import "./UserInfo.css";
 import UserAvatar from "../UserAvatar/UserAvatar";
-import envelope from "../../assets/icons8-envelope-20.png";
+
 
 const userInfo = (props) => {
     return (

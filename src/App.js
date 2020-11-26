@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Emails from "./components/Emails/Emails";
-import Charts from "./components/Charts/Charts";
+import Charts from "./container/Analytics/Analytics";
 import './App.css';
 import User from "./container/User/User";
 function App() {

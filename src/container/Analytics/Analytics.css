@@ -1,0 +1,21 @@
+.Analytics{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.chart{
+    position: relative;
+     margin: 15px auto;
+    border: 1px solid black;
+    padding: 5px;
+    height:40vh; width:80vw;
+}
+
+@media(min-width:500px){
+    .chart{
+        margin: 60px auto;
+        padding: 10px;
+        width: 60vw;
+    }
+}
