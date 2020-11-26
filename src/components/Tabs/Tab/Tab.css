@@ -28,7 +28,8 @@
     
 }
 
-.Tab a:hover{
+.Tab a:hover,
+.Tab a:focus{
     color: black;
 }
 

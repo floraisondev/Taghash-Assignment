@@ -6,7 +6,8 @@
     
 }
 
-.Avatar:hover{
+.Avatar:hover,
+.Avatar:focus{
     cursor:pointer;
 }
 

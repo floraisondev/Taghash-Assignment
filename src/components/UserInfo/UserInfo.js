@@ -1,7 +1,7 @@
 import React from 'react';
 import "./UserInfo.css";
 import UserAvatar from "../UserAvatar/UserAvatar";
-
+import envelope from "../../assets/icons8-envelope-20.png"
 
 const userInfo = (props) => {
     return (
@@ -14,7 +14,8 @@ const userInfo = (props) => {
                </div>
               
                <div className="contact">
-                  ✉ {"  "}{props.contact}
+                 <img src={envelope} alt="envelope" />
+                 {props.contact}
                </div>
              </div>
            </div>
